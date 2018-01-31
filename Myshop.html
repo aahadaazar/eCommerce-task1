@@ -1,0 +1,83 @@
+<!DOCTYPE>
+<html>
+<body>
+<head>
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<title>Aahad's Page</title>
+
+	<div id="heading">
+    <header id="title">
+      <h1 align="center"><b><u>Game Shop!</b></u></h1>
+      &nbsp;
+      &nbsp;
+      &nbsp;
+    </header>
+    <div id="page">
+      <table id="t01" cellspacing="30" align="center">
+      	<caption id="cap">Shopping Cart</caption>
+        <thead>
+          <tr>
+            <th class="first"><font color="white">Photo</font></th>
+            <th class="second"><font color="white">Qty</font></th>
+            <th class="third"><font color="white">Product</font></th>
+            <th class="fourth"><font color="white">Cost</font></th>
+          </tr>
+        </thead>
+        
+        <tbody>
+  
+
+
+  <tr class="item" id="ps">
+    
+    <td><img src="resources/playstation4.png" class="thumb" width="50" height="50">&nbsp;</td>
+    <td><input type="number" id="q1"  value="1" min="1" max="9" class="qtyinput"></td>
+    <td><a id="ps4" href="psdetail.html"><font color="white">PlayStation 4</font></a></td>
+    <td><font color="white" id="rs">Rs: <span id="result">0</span></font></td>
+    <td><span id="trash" class="remove"><img id="tb1" src="resources/trash.png" height="50" width="50" alt="X"></span></td>
+    <td><input type="button" value="Add to cart" onclick="multiply(40000,'result')"></td>
+  </tr>
+
+
+
+    <tr class="item">
+    
+    <td><img src="resources/xbox1.png" class="thumb" width="50" height="50">&nbsp;</td>
+    <td><input type="number" id="q2" value="1" min="1" max="9" class="qtyinput"></td>
+    <td><a id="xbox" href="xdetail.html"><font color="white">X-BOX 1</font></a></td>
+    <td><font color="white">Rs: <label id="resultx">0</label></font></td>
+    <td><span class="remove" id="trash"><img src="resources/trash.png" height="50" width="50" alt="X"></span></td>
+    <td><input type="button" value="Add to cart" onclick="multiply(36000,'resultx')"></td>
+  </tr>
+
+
+    <tr class="item">
+    
+    <td><img src="resources/nintendo.png" class="thumb" width="50" height="50">&nbsp;</td>
+    <td><input type="number" id="q3" value="1" min="1" max="9" class="qtyinput"></td>
+    <td><a id="ninw" href="wdetail.html"><font color="white">Nintendo Wii</font></a></td>
+    <td><font color="white">Rs: <label id="resultw">0</label></font></td>
+    <td><span class="remove" id="trash"><img src="resources/trash.png" height="50" width="50" alt="X"></span></td>
+    <td><input type="button" value="Add to cart" onclick="multiply(30000,'resultw')"></td>
+  </tr>
+
+
+  <tr class="totalprice">
+    <td class="light" id="tott">Total</td>
+    
+    <td colspan="5"><span class="tot"><font color="white">Rs: <label id="bill"></label></font></span></td>
+  </tr>
+  
+  <!-- checkout btn -->
+  <tr class="checkoutrow">
+    <td colspan="6" class="checkout" align="center"><button id="submitbtn"  onclick="total()"><font color="green">DONE!!</font></button></td>
+  </tr>
+</tbody>
+</table>
+</div>
+</header>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

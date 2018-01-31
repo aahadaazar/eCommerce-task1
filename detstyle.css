@@ -1,0 +1,20 @@
+@font-face{
+font-family: "summary";
+src: url("fonts/summ.ttf");
+src:
+url('fonts/summ.ttf') format('truetype');
+}
+
+body{
+	background-image: url('resources/background.jpg');
+	background-size: 100%;
+}
+p{
+
+	font-family: 'summary';
+	font-size: 20px;
+	color: white;
+}
+button{
+	display: inline;
+}
