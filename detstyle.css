@@ -18,3 +18,8 @@ p{
 button{
 	display: inline;
 }
+ul{
+	font-family: 'summary';
+	font-size: 20px;
+	color: white;
+}
