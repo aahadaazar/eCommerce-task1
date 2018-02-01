@@ -15,11 +15,46 @@ p{
 	font-size: 20px;
 	color: white;
 }
+
 button{
 	display: inline;
 }
+
 ul{
 	font-family: 'summary';
 	font-size: 20px;
 	color: white;
+}
+
+
+@font-face{
+font-family: "heading";
+src: url("fonts/heading.otf");
+src: 
+url("fonts/heading.otf") format("opentype");
+}
+
+
+#sb{
+
+	border-style: solid;
+	border-color: black;
+	background-color: steelblue;
+	color: white;
+	width: 200px;
+	height: 40px;
+	margin-left: 50%;
+}
+[class="details"]{
+	color:white;
+	border-style: double;
+	border-color: white;
+	border-width: 10px;
+	border-radius: 30px;
+	padding: 20px;
+	background-color: black;
+}
+
+h1{
+	font-family: 'heading';
 }
