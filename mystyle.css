@@ -40,10 +40,18 @@ table, td {
 
 }
 
+
+:focus{
+	background-color: yellow;
+}
+
 a:hover{
 	color: white;
 	text-decoration: bold;
 }
+
+
+
 
 
 #cap{
