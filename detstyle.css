@@ -58,3 +58,14 @@ url("fonts/heading.otf") format("opentype");
 h1{
 	font-family: 'heading';
 }
+
+
+[class="bundle"]{
+	background-color: white;
+	color: black;
+}
+
+ul{
+	background-color: white;
+	color: black;
+}
