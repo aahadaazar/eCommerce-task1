@@ -41,7 +41,7 @@ table, td {
 }
 
 a:hover{
-	color: black;
+	color: white;
 	text-decoration: bold;
 }
 
@@ -85,4 +85,9 @@ input[type="number"]{
 	width: 100px;
 	height: 40px;
 	color: black;
+}
+
+
+[class="name"]{
+	color:Red;
 }
