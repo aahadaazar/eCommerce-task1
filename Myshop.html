@@ -35,8 +35,8 @@
     <td><input type="number" id="q1"  value="1" min="1" max="9" class="qtyinput"></td>
     <td><a id="ps4" class="name" href="psdetail.html">PlayStation 4</a></td>
     <td><font color="white" id="rs">Rs: <span id="result" class="price">0</span></font></td>
-    <td><span id="trash" class="remove"><img id="tb1" src="resources/trash.png" height="50" width="50" alt="X"></span></td>
-    <td><input type="button" value="Add to cart" onclick="multiply(40000,'result')" class="atc"></td>
+    <td><button id="trash" class="remove" onclick="disable('q1','result')"><img id="tb1" src="resources/trash.png" height="50" width="50" alt="X"></button></td>
+    <td><input type="button" value="Add to cart" onclick="multiply(40000,'result','q1')" class="atc"></td>
   </tr>
 
 
@@ -47,8 +47,8 @@
     <td><input type="number" id="q2" value="1" min="1" max="9" class="qtyinput"></td>
     <td><a id="xbox" class="name" href="xdetail.html">X-BOX 1</a></td>
     <td><font color="white">Rs: <label id="resultx" class="price">0</label></font></td>
-    <td><span class="remove" id="trash"><img src="resources/trash.png" height="50" width="50" alt="X"></span></td>
-    <td><input type="button" value="Add to cart" onclick="multiply(36000,'resultx')" class="atc"></td>
+    <td><button class="remove" id="trash" onclick="disable('q2','resultx')"><img src="resources/trash.png" height="50" width="50" alt="X"></button></td>
+    <td><input type="button" value="Add to cart" onclick="multiply(36000,'resultx','q2')" class="atc"></td>
   </tr>
 
 
@@ -58,8 +58,8 @@
     <td><input type="number" id="q3" value="1" min="1" max="9" class="qtyinput"></td>
     <td><a id="ninw"  class="name" href="wdetail.html">Nintendo Wii</a></td>
     <td><font color="white">Rs: <label id="resultw" class="price">0</label></font></td>
-    <td><span class="remove" id="trash"><img src="resources/trash.png" height="50" width="50" alt="X"></span></td>
-    <td><input type="button" value="Add to cart" onclick="multiply(30000,'resultw')" class="atc"></td>
+    <td><button class="remove" id="trash" onclick="disable('q3','resultw')"><img src="resources/trash.png" height="50" width="50" alt="X"></button></td>
+    <td><input type="button" value="Add to cart" onclick="multiply(30000,'resultw','q3')" class="atc"></td>
   </tr>
 
 

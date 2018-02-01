@@ -7,7 +7,12 @@ function total(){
 function clear(){
 	document.getElementById("bill").innerHTML=null;
 }
-function multiply(a,c){
-	var b=parseInt(document.getElementById("q1").value);
-	document.getElementById(c).innerHTML=a*b;
+function multiply(a,c,b){
+	var d=parseInt(document.getElementById(b).value);
+	document.getElementById(c).innerHTML=a*d;
+}
+function disable(b,l){
+	document.getElementById(b).value=0;
+	document.getElementById(b).disabled="disabled";
+	document.getElementById(l).innerHTML=0;
 }
