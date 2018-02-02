@@ -21,6 +21,7 @@ url("fonts/heading.otf") format("opentype");
 h1 {
     color: navy;
     font-family: 'heading';
+    text-shadow: 3px 3px 10px white;
 }
 
 
@@ -49,7 +50,7 @@ table, td {
 
 a:hover{
 	color: white;
-	text-decoration: bold;
+	text-decoration: underline;
 }
 
 
@@ -66,8 +67,9 @@ a:hover{
 
 
 #cap{
-	font-family: 'table';
+	font-family: sans-serif;
 	font-size: 30px;
+	font-weight: bolder;
 }
 
 th[class]{
